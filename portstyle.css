@@ -1,0 +1,68 @@
+/* Återställ några standardstilar */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Stilar för Navigationsfältet */
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Stilar för Huvudet */
+header {
+  text-align: center;
+  padding: 2em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Stilar för Huvudinnehållet */
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+/* Stilar för Formuläret */
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+/* Stilar för Fotsektionen */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
