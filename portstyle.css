@@ -18,6 +18,23 @@ body {
   background-color: #f8f8f8; /* Lätt grå bakgrundsfärg */
 }
 
+.large-image {
+  width: 253px; /* Justera bredden efter behov */
+  height: auto; /* För att behålla proportionerna */
+  margin:-100px 135px 100px; /* Justera marginalerna mellan bilderna */
+}
+
+.main-image {
+  width: 320px; /* Justera bredden efter behov */
+  height: auto; /* För att behålla proportionerna */
+  margin: 0 auto; /* Centrera huvudbilden */
+}
+
+/* Centrera texten */
+h1 {
+  text-align: center;
+}
+
 /* Stilar för Navigationsfältet */
 nav {
   background-color: #333;
