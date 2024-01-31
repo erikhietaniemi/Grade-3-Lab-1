@@ -118,6 +118,22 @@ textarea {
   box-sizing: border-box;
 }
 
+/* Stilar för "Skicka Meddelande" knappen */
+input[type="submit"] {
+  background-color: #4CAF50; /* Grön färg */
+  color: white; /* Vit textfärg */
+  padding: 10px 15px; /* Justera padding efter behov */
+  border: none;
+  border-radius: 5px; /* Runda hörn för en mer estetisk look */
+  cursor: pointer;
+  font-size: 16px; /* Justera textstorleken efter behov */
+}
+
+/* Hover-effekt för bättre användarupplevelse */
+input[type="submit"]:hover {
+  background-color: #45a049; /* Mörkare grön vid hover */
+}
+
 /* Stilar för Fotsektionen */
 footer {
   background-color: #333;
