@@ -49,6 +49,11 @@ nav ul {
   align-items: center; /* Centrera elementen vertikalt */
 }
 
+nav ul li {
+  border: 1px solid #27d90f; /* Lägg till en 1px svart ram runt varje rubrik */
+  padding: 0.5em 1em; /* Lägg till lite utfyllnad inuti ramen */
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -113,7 +118,6 @@ section {
     height: auto; /* Behåll proportionerna när bilderna skalas om */
   }
 }
-
 
   section {
     margin-bottom: 1em;
